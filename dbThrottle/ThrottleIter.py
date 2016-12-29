@@ -1,12 +1,17 @@
 """
 ThottleIter: Throttle execution through an iterable.
 """
+
 from dbThrottle.ThrottleObject import ThrottleObject
 
 class ThrottleIter(ThrottleObject):
+    """
+    ThottleIter: Throttle execution through an iterable.
+    """
 
     def __init__(self, iterable, performer, throttle):
         """
+        Initalize the Throttle Iterator Object.
         Take in the iterable, function, and throttling settings.
         Call the parent ThrottleObject to perform throttling.
         """
