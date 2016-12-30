@@ -9,47 +9,47 @@ class ThrottleMethod(object):
     ThrottleMethod: Default methods for throttling metrics.
     """
 
-    @classmethod
+    @staticmethod
     def test_metric(host, *args):
         """Return a random number to test against, (0,1)."""
         return random.random()
 
-    @classmethod
+    @staticmethod
     def mysql_replica_lag(host, *args):
         """Check the mysql replica lag."""
         pass
 
-    @classmethod
+    @staticmethod
     def mysql_threads(host, *args):
         """Check the number of mysql threads."""
         pass
 
-    @classmethod
+    @staticmethod
     def postgresql_replica_lag(host, *args):
         """Check the postgresql replica lag."""
         pass
 
-    @classmethod
+    @staticmethod
     def postgresql_threads(host, *args):
         """Check the number of postgresql threads."""
         pass
 
-    @classmethod
+    @staticmethod
     def mssql_replica_lag(host, *args):
         """Check the mssql replica lag."""
         pass
 
-    @classmethod
+    @staticmethod
     def mssql_threads(host, *args):
         """Check the number of mssql threads."""
         pass
 
-    @classmethod
+    @staticmethod
     def oracle_replica_lag(host, *args):
         """Check the oracle replica lag."""
         pass
 
-    @classmethod
+    @staticmethod
     def oracle_threads(host, *args):
         """Check the number of mssql threads."""
         pass
