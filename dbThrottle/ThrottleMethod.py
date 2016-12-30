@@ -4,7 +4,7 @@ import sqlalchemy, random
 ThrottleMethod: Default methods for throttling metrics.
 """
 
-class ThrottleMethod(Object):
+class ThrottleMethod(object):
     """
     ThrottleMethod: Default methods for throttling metrics.
     """
