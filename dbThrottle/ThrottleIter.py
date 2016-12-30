@@ -16,8 +16,9 @@ class ThrottleIter(ThrottleObject):
         Call the parent ThrottleObject to perform throttling.
         """
         # get parent
-        self.parent = "?"
+        self.parent = super(ThrottleIter, self)
         # call parent __init__ using all in throttle
+        self.parent.__init__(*throttle)
         # figure out if I want throttle to be list or list/dict.
         self.iterable = iterable
         self.performer = performer
