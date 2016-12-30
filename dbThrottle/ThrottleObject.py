@@ -5,6 +5,16 @@ ThottleObject: Base class for throttable objects.
 class ThrottleObject(Object):
     """
     ThrottleObject: Base class for throttable objects.
+
+    Inputs:
+        The address of a host to check
+        The method to use for a metric
+        Threshold to measure metric result against.
+
+    If method() returns greater than threshold,
+    the db is in "throttle mode".
+    In "throttle mode", child objects should not act; just wait.
+
     """
     def __init__(self, host, method, threshold):
         """
