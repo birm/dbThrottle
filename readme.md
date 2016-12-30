@@ -6,6 +6,7 @@ Throttling code to work under the constraints of a server makes sense in certain
 
 ## What
 A, still early, python module, which introduces a functional type to complete a task or continiously run an operation, taking database load and similar metrics into account.
+The code will work with any metric you want to define, but we've included replia lag an open threads/connections as default metrics for mssql, mysql, postgresql, and oracle.
 
 ## Who
 Ryan Birmingham, under GPL3
