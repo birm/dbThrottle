@@ -2,7 +2,7 @@
 ThottleObject: Base class for throttable objects.
 """
 
-class ThrottleObject(Object):
+class ThrottleObject(object):
     """
     ThrottleObject: Base class for throttable objects.
 
