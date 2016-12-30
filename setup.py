@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(name='dbThrottle',
-      version='0.0.2',
+      version='0.0.3',
       description='Python Class to run code with consideration to DB load.',
       author='Ryan Birmingham',
       author_email='birm@rbirm.us',
