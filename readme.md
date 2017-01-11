@@ -1,4 +1,6 @@
 # dbThrottle
+[![PyPI version](https://badge.fury.io/py/dbThrottle.svg)](https://badge.fury.io/py/dbThrottle)  [![Build Status](https://travis-ci.org/birm/dbThrottle.svg?branch=master)](https://travis-ci.org/birm/dbThrottle)
+
 Python Class to run code with consideration to DB load.
 
 ## Why
