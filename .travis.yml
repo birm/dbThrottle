@@ -14,3 +14,6 @@ install:
 
 script:
     - py.test dbThrottle/tests/test_throttle_iter.py
+
+notifications:
+  slack: rbirm:fjJKXGPbjyXSGAKKaOU6GWEh
